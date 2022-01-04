@@ -22,5 +22,13 @@
         app:srcCompat="@drawable/taketour__2_"
         tools:layout_editor_absoluteY="44dp" />
 
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/logo_modified"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
