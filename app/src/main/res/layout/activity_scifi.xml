@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scifi">
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="170dp"
+        android:layout_height="258dp"
+        app:srcCompat="@drawable/dune__1_"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="185dp"
+        android:layout_height="253dp"
+        app:srcCompat="@drawable/dune__2_"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCI-FI"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="159dp"
+        android:layout_height="215dp"
+        app:srcCompat="@drawable/dune__3_"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="163dp"
+        android:layout_height="216dp"
+        app:srcCompat="@drawable/dune__5_"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
